@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f8f8f4"/><stop offset="1" stop-color="#e8edef"/></linearGradient>
+    <linearGradient id="mount" x1="0" x2="1"><stop offset="0" stop-color="#dfe6e9"/><stop offset="1" stop-color="#c4d0d7"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1400" height="500" fill="url(#sky)"/>
+  <path d="M580 330 C700 230 770 260 835 300 C920 350 1000 270 1105 255 C1210 240 1280 305 1400 265 L1400 500 500 500 Z" fill="url(#mount)" opacity=".72" filter="url(#blur)"/>
+  <path d="M510 390 C650 285 760 300 840 330 C960 375 1030 325 1155 285 C1240 258 1320 310 1400 295 L1400 500 480 500 Z" fill="#cbd6dc" opacity=".5"/>
+  <g opacity=".58" fill="#9aaab4">
+    <polygon points="815,365 866,195 917,365"/>
+    <polygon points="845,365 888,220 930,365"/>
+    <rect x="864" y="205" width="9" height="160" fill="#b4c0c7"/>
+  </g>
+  <path d="M0 410 C240 365 380 380 560 405 C760 433 1010 408 1400 370 L1400 500 L0 500 Z" fill="#e3e9eb" opacity=".65"/>
+</svg>
